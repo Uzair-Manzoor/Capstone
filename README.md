@@ -1,3 +1,5 @@
+# Capstone-Project
+<a name="readme-top"></a>
 
 # 📗 Table of Contents
 
@@ -22,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Capstone <a name="about-project"></a>
 
-> This is my responsive portfolio project with Microverse using Githib flow in a professional way to work with html and css responsive design following figma template using flexbox, basic structure and data query. 
+> This is my responsive capstone project with Microverse using Githib flow in a professional way to work with html and css responsive design following behance template using flexbox, basic structure and data query. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -35,6 +37,7 @@
   <ul>
    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript</a></li>
   </ul>
 </details>
 
@@ -52,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://uzair-manzoor.github.io/Portfolio/)
+- [Live Demo Link](Coming Soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +79,7 @@ Clone this repository to your desired folder:
 
 Example commands:
 
-git clone https://github.com/Uzair-Manzoor/Portfolio.git
+git clone https://github.com/Uzair-Manzoor/Capstone.git
 
 **3. Install** <a name="install"></a>
 
@@ -101,6 +104,11 @@ I have added linters or tests in order to avoid typos and ensure good practice i
 
   `npx stylelint "**/*.{css,scss}"`
 
+  `npx eslint`
+  - To run linter test on javascript files. Use below command
+
+    `npx eslint .`
+
 **6. Deployment** <a name="deployment"></a>
 
  You can deploy your project using `github` free source.
@@ -123,7 +131,7 @@ I have added linters or tests in order to avoid typos and ensure good practice i
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[add more interactive buttons and sections]**
+- [ ] **[add more interactive features and sections]**
 - [ ] **[style it beautifully]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
