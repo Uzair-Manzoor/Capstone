@@ -98,13 +98,12 @@ git clone https://github.com/Uzair-Manzoor/Capstone.git
 I have added linters or tests in order to avoid typos and ensure good practice in this project. So while using this repository if you need to check your work no matters have worked on html, css and js you can use below commands
 
 - In order to run the linter test on `index.html` or any html file. use below command
-
   `npx hint` .
+
 - To run linter test on stylesheets. Use below command
   `npx stylelint "**/*.{css,scss}"`
 
-  `npx eslint`
-  - To run linter test on javascript files. Use below command
+- To run linter test on `script.js` or any other javascript files. Use below command
   `npx eslint .`
 
 **6. Deployment** <a name="deployment"></a>
