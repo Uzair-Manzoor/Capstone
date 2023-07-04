@@ -101,13 +101,11 @@ I have added linters or tests in order to avoid typos and ensure good practice i
 
   `npx hint` .
 - To run linter test on stylesheets. Use below command
-
   `npx stylelint "**/*.{css,scss}"`
 
   `npx eslint`
   - To run linter test on javascript files. Use below command
-
-    `npx eslint .`
+  `npx eslint .`
 
 **6. Deployment** <a name="deployment"></a>
 
