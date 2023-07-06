@@ -29,8 +29,6 @@
 
 ![image](./resources/image/Highlights.png)
 
-![image](./resources/image/Higlights1.png)
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
