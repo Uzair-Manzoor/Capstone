@@ -1,5 +1,4 @@
-# Capstone-Project
-<a name="readme-top"></a>
+## Capstone Project
 
 # 📗 Table of Contents
 
