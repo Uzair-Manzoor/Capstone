@@ -23,9 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
-> This is my responsive capstone project with Microverse using Githib flow in a professional way to work with html and css responsive design following behance template using flexbox, basic structure and data query. 
+> Capstone Project is designed to provide information and resources to students, faculty members, and university visitors, showcasing the academic programs and research opportunities available. Built with HTML, CSS, and JavaScript. The main objective of this project is to start practicing the professional way to work with CSS HTML and JavaScript in responsive design, using the basic structure, data query, flexbox and all following a template in Behance. Capstone Project
+
+![image](./resources/image/Highlights.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
