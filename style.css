@@ -181,7 +181,7 @@ a {
 
 .hero-deadline-title {
   margin: 30px 0 10px;
-  color: #2d2c2c;;
+  color: #2d2c2c;
 }
 
 .hero-deadline-details {
@@ -454,6 +454,7 @@ a {
   .brand img {
     display: none;
   }
+
   .logo {
     padding-left: 15px;
   }
@@ -461,6 +462,7 @@ a {
   .logo img {
     width: 70%;
   }
+  
   .rights p {
     display: none;
   }
