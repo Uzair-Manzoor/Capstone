@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone-01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+      <div class="header-top">
+        <ul class="top-header-group">
+          <li class="top-header-item">
+              <a class="top-header-item-link"
+              href="#">
+                <img class="top-social-icon" src="resources/icon/facebook.png"
+                alt="facebook"/>
+              </a>
+          </li>
+          <li class="top-header-item">
+            <a class="top-header-item-link" 
+            href="#">
+              <img class="top-social-icon" src="resources/icon/twitter.svg"
+              alt="twitter"/>
+            </a>
+          </li>
+          <li class="top-header-item">
+            <a class="top-header-item-link" href="#">English</a>
+          </li>
+          <li class="top-header-item">
+            <a class="top-header-item-link" href="#">MyPage</a>
+          </li>
+          <li class="top-header-item">
+            <a class="top-header-item-link" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar">
+        <div class="menu-icon">
+          <img src="resources/icon/bars-solid.svg" alt="menu" />
+        </div>
+        <a class="brand" href="index.html">
+          <img src="resources/logo/logo.jpg" alt="Azmira5 Tech (Pvt) LTD" />
+        </a>
+        <ul class="nav-item-group m-nav">
+          <span class="cross-icon">
+            <img src="./resources/icon/cross-icon.png" alt="x" />
+          </span>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#program" class="nav-link">Program</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#join" class="nav-link">Join</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#sponser" class="nav-link">Sponser</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#hero" class="nav-link nav-box">CC Compaign</a>
+          </li>
+        </ul>
+        <ul class="nav-item-group d-nav">
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#program" class="nav-link">Program</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#join" class="nav-link">Join</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#sponser" class="nav-link">Sponser</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#hero" class="nav-link nav-box">CC Compaign</a>
+          </li>
+        </ul>
+    </header>
+    <!-- Main container start Form here -->
+  <main class="container">
+    <!-- Hero Section -->
+        <section id="hero" class="hero">
+      <div class="hero-block">
+        <h3 class="hero-greeting primary-color">"Hello! Adventure Seekers"</h3>
+        <h1 class="hero-title">SUMMER SUMMITS<br>K2 & BROAD PEAK<br>2023</h1>
+        <p class="hero-details">So far, so good there are reports of people spreading across various camps on K2. This is a low snow year on K2, and the rock fall has been significant, so teams are seeking safer locations for the high camps.</p>
+        <h2 class="hero-deadline-title">2023.07.07(FRI)~(THU)</h2>
+        <p class="hero-deadline-details">SPEAK TO THE MOUNTAINS @ K2 Base Camp, Skardu, Pakistan</p>
+        </div>
+        </section>
+        <!-- Program Section -->
+        <section id="program" class="program">
+          <h2 class="program-title">Routes to Explore</h2>
+          <ul class="program-group">
+            <li class="program-item">
+                <div class="program-img">
+                  <img src="./resources/icon/mountain 4.png" alt="Web Introduction" />
+                </div>
+                <h5 class="program-name">Abruzzi Spur</h5>
+                <p class="program-details">The route with climbers tackling this pass located on Pakistan side. Route name from Duke of the Abruzzi</p>
+            </li>
+            <li class="program-item">
+                <div class="program-img">
+                  <img src="./resources/icon/mountain 6.png" alt="git and github" />
+                </div>
+                <h5 class="program-name">North Ridge</h5>
+                <p class="program-details">Most dangerous route to the summit. Two teams can dare the attempt at a time. This route is at the Chinese side</p>
+            </li>
+            <li class="program-item">
+                <div class="program-img">
+                  <img src="./resources/icon/mountain 7.png" alt="frontend" />
+                </div>
+                <h5 class="program-name">Magic Line</h5>
+                <p class="program-details">Considered to be the second most demanding. It was first climbed in 1986 by a Polish-Slovak expedition</p>
+            </li>
+            <li class="program-item">
+                <div class="program-img">
+                  <img src="./resources/icon/mountain 9.png" alt="backend" />
+                </div>
+                <h5 class="program-name">Polish Line</h5>
+                <p class="program-details">First climbed in 1986, the climbers were killed on the descent. Entrance to this route is via the Pakistan side</p>
+            </li>
+            <li class="program-item">
+                <div class="program-img">
+                  <img src="./resources/icon/mountain 8.png" alt="join the dot" />
+                </div>
+                <h5 class="program-name">West Face</h5>
+                <p class="program-details">First ascended in 2007 by Russian team. It is Entirely comprised of rock crevasses and snow capped couloirs</p>
+            </li>
+          </ul>
+          <button class="btn-program btn-modal">SEE ROUTES UP TO THE SUMMIT</button>
+        </section>
+        <!-- Section Tour -->
+        <section id="tour" class="tour">
+          <h2 class="program-title tour-title">Featured Mountaineers</h2>
+          <ul class="tour-group" id="m-tour-group"></ul>
+          <ul id="d-tour-group" class="tour-group"></ul>
+          <button class="see-more-tours">MORE<span><img src="./resources/icon/expand-arrow.png" alt="more" /></span></button>
+        </section>
+        <section id="sponser" class="sponser">
+          <h2 class="program-title">Partners</h2>
+          <ul class="sponser-item-group">
+            <li class="sponser-item">
+              <img src="./resources/logo/SRL.png" alt="Silkroute Ladakh"/>
+            </li>
+            <li class="sponser-item">
+              <img src="./resources/logo/tcdgb.jpg" alt="GB Culture&tourism Aut"/>
+            </li>
+            <li class="sponser-item">
+              <img src="./resources/logo/download.png" alt="random"/>
+            </li>
+            <li class="sponser-item">
+              <img src="./resources/logo/SH.png" alt="Serena Hotels"/>
+            </li>
+            <li class="sponser-item">
+              <img src="./resources/logo/TSCGB.png" alt="Target Shooting Club GB"/>
+            </li>
+          </ul>
+        </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-block">
+      <div class="logo">
+        <img src="./resources/logo/logo.png" alt="Karwan Leaders"/>
+      </div>
+      <div class="rights">
+      <h3>&#169;2023 Karwan Leaders Pakistan. Some Rights Reserved.</h3>
+      <p>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은 <strong>http://creativecommons.org/licences/by/2.0/kr</strong> 를 보세요.</p>
+      </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
