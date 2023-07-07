@@ -22,13 +22,18 @@
   margin-top: 70px;
 }
 
+.hero-greet {
+  font-size: 28px;
+  text-align: center;
+}
+
 .headline-title {
-  font-size: 38px;
-  line-height: 45px;
-  font-weight: bold;
-  color: #e85848;
-  margin: 20px 0;
-  padding: 20px 0;
+  font-size: 32px;
+  font-weight: 900;
+  color: #eb1d07;
+  margin: 30px 0;
+  text-align: center;
+  line-height: 35px;
 }
 
 .headline-details {
@@ -38,12 +43,14 @@
   max-width: 100%;
   border: 1px solid #cdcbcb;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .headline-block h5 {
   font-weight: normal;
   color: #292c34;
   margin: 20px 0;
+  text-align: center;
 }
 
 address {
@@ -61,6 +68,11 @@ address {
   background: #fff;
   flex-direction: column;
   border-bottom: 1px solid #d6d6d6;
+}
+
+.about-logo-details {
+  text-align: center;
+  margin: 0 35px 35px 35px;
 }
 
 .logo-block {
@@ -169,14 +181,14 @@ address {
     max-width: 800px;
     align-items: center;
     flex-direction: column;
-    margin-top: 75px;
+    margin-top: 10rem;
     padding: 10px;
     gap: 10px;
   }
 
   .headline-title {
     font-size: 56px;
-    line-height: 80px;
+    line-height: 60px;
   }
 
   .past-basecamp {
