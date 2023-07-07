@@ -44,8 +44,7 @@ a {
 }
 
 .navbar {
-  width: 100%;
-  max-width: 880px;
+  width: 70%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -106,19 +105,19 @@ a {
 }
 
 .nav-box {
-  border: 4px solid #b94032;
+  border: 5px solid #ec5242;
   font-weight: bold;
   text-align: center;
-  padding: 7px 0;
+  padding: 11px 0;
 }
 
 .nav-box:hover {
-  background: #b94032;
+  background: #ec5242;
   color: #fff;
 }
 
 .nav-box:active {
-  color: #b94032;
+  color: #ec5242;
   background: #fff;
 }
 
