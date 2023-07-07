@@ -19,6 +19,10 @@ a {
   display: flex !important;
 }
 
+.primary-color {
+  color: #ec5242;
+}
+
 .header {
   display: flex;
   position: fixed;
@@ -45,14 +49,6 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-.brand {
-  padding-left: 15px;
-}
-
-.brand img {
-  width: 70%;
 }
 
 .menu-icon {
@@ -156,15 +152,15 @@ a {
 }
 
 .hero-greeting {
-  font-size: 22px;
+  font-size: 28px;
   margin-bottom: 10px;
-  color: #9d1d1d;
+  letter-spacing: 0;
 }
 
 .hero-title {
   font-size: 2rem;
   font-weight: 900;
-  background-image: url("./resources/image/8.jpg");
+  background-image: url("./resources/image/4.jpg");
   background-size: cover;
   background-attachment: fixed;
   line-height: 35px;
@@ -185,12 +181,12 @@ a {
 
 .hero-deadline-title {
   margin: 30px 0 10px;
-  color: #616161;
+  color: #2d2c2c;;
 }
 
 .hero-deadline-details {
   font-size: 15px;
-  color: #6f6b6b;
+  color: #4d4b4b;
 }
 
 .program {
@@ -200,7 +196,7 @@ a {
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./resources/image/10");
+  background-image: url("./resources/image/bg-prog.png");
 }
 
 .program-title {
@@ -314,15 +310,14 @@ a {
 .tour-list {
   display: flex;
   padding: 10px;
-  box-shadow: 0 3px 7px #d3d3d3;
   width: 100%;
   transition: all 0.2s ease-in-out;
 }
 
 .tour-list:hover {
-  background-image: url(./resources/image/bg-prog.png);
   color: #fff;
   border: 2px solid #f00;
+  background-color: #383535;
 }
 
 .tour-img {
@@ -343,10 +338,6 @@ a {
   left: 20px;
   top: 20px;
   transition: transform 0.2s ease-in-out;
-}
-
-.tour-list:hover .profile {
-  transform: translate(-20px, -20px);
 }
 
 .tour-info {
@@ -454,6 +445,27 @@ a {
   font-size: 1rem;
 }
 
+.rights p {
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .brand img {
+    display: none;
+  }
+  .logo {
+    padding-left: 15px;
+  }
+
+  .logo img {
+    width: 70%;
+  }
+  .rights p {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header {
     background: #fff;
@@ -474,6 +486,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    padding-right: 14%;
   }
 
   .top-header-item {
@@ -524,11 +537,11 @@ a {
   }
 
   .hero-greeting {
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .hero-title {
-    font-size: 58px;
+    font-size: 50px;
     margin-bottom: 25px;
     line-height: 58px;
   }
@@ -615,5 +628,15 @@ a {
 
   .footer {
     padding: 30px;
+  }
+
+  .brand,
+  .logo {
+    padding-left: 15px;
+  }
+
+  .brand img,
+  .logo img {
+    width: 70%;
   }
 }
