@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.appu-bureau.org/wp-content/uploads/2021/09/coming-soon-animated-gif-8.gif)
+- [Live Demo Link](https://uzair-manzoor.github.io/Capstone/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
