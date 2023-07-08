@@ -1,15 +1,15 @@
 .about-headline {
-  background: url('./resources/image/climbers.jpeg');
+  background: url('./resources/image/7.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 92vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #d7cfcf;
+  background-color: #e3e2e1;
   padding: 20px;
-  background-blend-mode: color-dodge;
+  background-blend-mode: soft-light;
   overflow: hidden;
 }
 
