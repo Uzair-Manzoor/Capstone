@@ -130,7 +130,7 @@ I have added linters or tests in order to avoid typos and ensure good practice i
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[add more interactive features and sections]**
-- [ ] **[style it beautifully]**
+- [ ] **[add more styles]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
